@@ -1,0 +1,94 @@
+body {
+background: rgb(237, 237, 237);
+}
+
+.external-link {
+  font-family: 'Gugi', cursive;
+  color: white;
+  padding: 1.2em;
+  background-color: rgb(76, 106, 144);
+  border-radius: 150px;
+
+}
+
+.card-style {
+  margin: 1.6em 0em;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px grey;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+i.fab.fa-facebook{
+ color: rgb(66, 103, 178);
+}
+
+i.fab.fa-linkedin-in{
+  color: rgb(14, 119, 181);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+i.fab:hover{
+  color: black;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+.left-text{
+  text-align: left;
+}
+
+#image {
+  width: 200px;
+  height: 250px;
+  border-radius: 150px;
+  padding: 1em;
+
+}
+
+p {
+  line-height: 25px;
+  font-family: 'Gugi', cursive;
+  padding: 1em ;
+}
+
+h1, h2 {
+  line-height: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gugi', cursive;
+  color : rgb(200,20) ;
+  padding: 1em;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
